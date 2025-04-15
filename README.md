@@ -51,13 +51,33 @@ This project involves:
 2. **Silver Layer**: Performs data cleansing, standardization, and normalization to refine the data and make it suitable for analysis.
 3. **Gold Layer**: Contains fully prepared, business-ready data organized in a star schema format, optimized for reporting and analytical purposes.
 ---
-## ⚙️ Data Integration
-![Data Integration](Docs/3-Data_Integration.png)
-## ⌛ Data Flow
-![Data Flow](Docs/4-Data_Flow.png)
-## 🏪 Sales Data Mart
-![Sales Data Mart](Docs/5-Sales_Data_Mart.png)
----
+## 📂 Repository Structure
+```
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                                        # Project documentation and architecture details
+│   ├── 1) Data Management Approach. drawio      # shows all Data Management Approach techniques and which approach we use.
+│   ├── 2) data_architecture.drawio              # Draw.io file shows the project's architecture
+│   ├── 3) data_catalog.pdf                      # Catalog of datasets, including field descriptions and metadata
+│   ├── 4) Data Integration. drawio              # Draw.io file for the data-integrated dataset serves
+|   ├── 5) Data Flow.drawio                      # Draw.io file for the data flow diagram
+│   ├── 6) data_models.drawio                    # Draw.io file for data models (star schema)
+│   ├── naming-conventions.pdf                   # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+```
 
  ## 🛡️License
 
