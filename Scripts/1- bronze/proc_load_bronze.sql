@@ -36,7 +36,7 @@ BEGIN
 
 	PRINT '>> Inserting Data Into : crm_cust_info Table'
 	BULK INSERT bronze.crm_cust_info
-	FROM 'E:\SQL Data Warehouse\sql-data-warehouse-project-main\datasets\source_crm\cust_info.csv'
+	FROM 'E:\SQL Data Warehouse\Sales-Data-Warehouse-Project\Datasets\source_crm\cust_info.csv'
 	WITH(
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -53,7 +53,7 @@ BEGIN
 
 	PRINT '>> Inserting Data Into : crm_prd_info Table'
 	BULK INSERT bronze.crm_prd_info
-	FROM 'E:\SQL Data Warehouse\sql-data-warehouse-project-main\datasets\source_crm\prd_info.csv'
+	FROM 'E:\SQL Data Warehouse\Sales-Data-Warehouse-Project\Datasets\source_crm\prd_info.csv'
 	WITH(
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -70,7 +70,7 @@ BEGIN
 
 	PRINT '>> Inserting Data Into : crm_sales_details Table'
 	BULK INSERT bronze.crm_sales_details
-	FROM 'E:\SQL Data Warehouse\sql-data-warehouse-project-main\datasets\source_crm\sales_details.csv'
+	FROM 'E:\SQL Data Warehouse\Sales-Data-Warehouse-Project\Datasets\source_crm\sales_details.csv'
 	WITH(
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -91,7 +91,7 @@ BEGIN
 
 	PRINT '>> Inserting Data Into : erp_loc_a101 Table'
 	BULK INSERT bronze.erp_loc_a101
-	FROM 'E:\SQL Data Warehouse\sql-data-warehouse-project-main\datasets\source_erp\loc_a101.csv'
+	FROM 'E:\SQL Data Warehouse\Sales-Data-Warehouse-Project\Datasets\source_erp\loc_a101.csv'
 	WITH(
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -108,7 +108,7 @@ BEGIN
 
 	PRINT '>> Inserting Data Into : erp_CUST_AZ12 Table'
 	BULK INSERT bronze.erp_CUST_AZ12
-	FROM 'E:\SQL Data Warehouse\sql-data-warehouse-project-main\datasets\source_erp\CUST_AZ12.csv'
+	FROM 'E:\SQL Data Warehouse\Sales-Data-Warehouse-Project\Datasets\source_erp\CUST_AZ12.csv'
 	WITH(
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -125,7 +125,7 @@ BEGIN
 
 	PRINT '>> Inserting Data Into : erp_px_cat_g1v2 Table'
 	BULK INSERT bronze.erp_px_cat_g1v2
-	FROM 'E:\SQL Data Warehouse\sql-data-warehouse-project-main\datasets\source_erp\px_cat_g1v2.csv'
+	FROM 'E:\SQL Data Warehouse\Sales-Data-Warehouse-Project\Datasets\source_erp\px_cat_g1v2.csv'
 	WITH(
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
