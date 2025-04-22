@@ -4,7 +4,13 @@ Welcome to the Data Warehouse and Analytics Project Repository!
 This portfolio project showcases a complete end-to-end data warehousing and analytics solution, from designing and building the data warehouse to uncovering actionable insights. It reflects industry best practices in both data engineering and analytics.
 
 ---
+## 🎯 Data Architecture
+![Data Architecture](Docs/2-Data_Architecture.png)
 
+1. **Bronze Layer**: Captures raw data directly from source systems without any transformations. Data is imported from CSV files into a SQL Server database.
+2. **Silver Layer**: Performs data cleansing, standardization, and normalization to refine the data and make it suitable for analysis.
+3. **Gold Layer**: Contains fully prepared, business-ready data organized in a star schema format, optimized for reporting and analytical purposes.
+---
 ## 📝 Project Requirements
 ### Data Warehouse Development (Data Engineering)
 #### Objective
@@ -44,13 +50,7 @@ This project involves:
 4. **Analytics & Reporting**: Developing interactive reports and dashboards in Power BI to deliver actionable business insights.
 
 ---
-## 🎯 Data Architecture
-![Data Architecture](Docs/2-Data_Architecture.png)
 
-1. **Bronze Layer**: Captures raw data directly from source systems without any transformations. Data is imported from CSV files into a SQL Server database.
-2. **Silver Layer**: Performs data cleansing, standardization, and normalization to refine the data and make it suitable for analysis.
-3. **Gold Layer**: Contains fully prepared, business-ready data organized in a star schema format, optimized for reporting and analytical purposes.
----
 ## 📂 Repository Structure
 ```
 data-warehouse-project/
@@ -64,7 +64,7 @@ data-warehouse-project/
 │   ├── 4) Data Integration. drawio              # Draw.io file for the data-integrated dataset serves
 |   ├── 5) Data Flow.drawio                      # Draw.io file for the data flow diagram
 │   ├── 6) data_models.drawio                    # Draw.io file for data models (star schema)
-│   ├── naming-conventions.pdf                   # Consistent naming guidelines for tables, columns, and files
+│   ├── 7) naming-conventions.pdf                # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
@@ -75,8 +75,6 @@ data-warehouse-project/
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 
  ## 🛡️License
