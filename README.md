@@ -72,6 +72,8 @@ data-warehouse-project/
 │   ├── gold/                           # Scripts for creating analytical models
 │
 ├── tests/                              # Test scripts and quality files
+├── BI: Analytics and Reporting/        # Dashboards.ppix
+│   ├── Icons/                          # Icons that are used on Dashboards
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
